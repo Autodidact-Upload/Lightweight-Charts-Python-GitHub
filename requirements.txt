@@ -1,0 +1,14 @@
+# Core dependencies
+vispy>=0.9.0
+numpy>=1.21.0
+
+# Vispy backend (required for window display)
+PyQt6>=6.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Build tools (fixes Pylance warnings)
+setuptools>=45.0.0
+wheel>=0.37.0
